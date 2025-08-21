@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Paisajes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="config.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Paisajes</h1>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="flores.html">Flores</a>
+        <a href="marinas.html">Marinas</a>
+        <a href="paisajes.html">Paisajes</a>
+        <a href="pueblos.html">Pueblos</a>
+        <a href="sobre.html">Sobre el artista</a>
+    </nav>
+</header>
+<main class="galeria">
+    
+        <div class="item">
+            <img src="imagenes/paisajes1.jpg" alt="paisajes 1" onclick="openLightbox('imagenes/paisajes1.jpg')">
+            <p class="precio">Precio: 3000 €</p>
+            <a href="https://wa.me/{whatsapp}/?text=Estoy%20interesado%20en%20paisajes%201" class="btn">Comprar</a>
+        </div>
+        
+        <div class="item">
+            <img src="imagenes/paisajes2.jpg" alt="paisajes 2" onclick="openLightbox('imagenes/paisajes2.jpg')">
+            <p class="precio">Precio: 3000 €</p>
+            <a href="https://wa.me/{whatsapp}/?text=Estoy%20interesado%20en%20paisajes%202" class="btn">Comprar</a>
+        </div>
+        
+        <div class="item">
+            <img src="imagenes/paisajes3.jpg" alt="paisajes 3" onclick="openLightbox('imagenes/paisajes3.jpg')">
+            <p class="precio">Precio: 3000 €</p>
+            <a href="https://wa.me/{whatsapp}/?text=Estoy%20interesado%20en%20paisajes%203" class="btn">Comprar</a>
+        </div>
+        
+        <div class="item">
+            <img src="imagenes/paisajes4.jpg" alt="paisajes 4" onclick="openLightbox('imagenes/paisajes4.jpg')">
+            <p class="precio">Precio: 3000 €</p>
+            <a href="https://wa.me/{whatsapp}/?text=Estoy%20interesado%20en%20paisajes%204" class="btn">Comprar</a>
+        </div>
+        
+</main>
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="">
+</div>
+</body>
+</html>

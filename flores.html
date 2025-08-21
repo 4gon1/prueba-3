@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Flores</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="config.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Flores</h1>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="flores.html">Flores</a>
+        <a href="marinas.html">Marinas</a>
+        <a href="paisajes.html">Paisajes</a>
+        <a href="pueblos.html">Pueblos</a>
+        <a href="sobre.html">Sobre el artista</a>
+    </nav>
+</header>
+<main class="galeria">
+    
+        <div class="item">
+            <img src="imagenes/flores1.jpg" alt="flores 1" onclick="openLightbox('imagenes/flores1.jpg')">
+            <p class="precio">Precio: 3000 €</p>
+            <a href="https://wa.me/{whatsapp}/?text=Estoy%20interesado%20en%20flores%201" class="btn">Comprar</a>
+        </div>
+        
+        <div class="item">
+            <img src="imagenes/flores2.jpg" alt="flores 2" onclick="openLightbox('imagenes/flores2.jpg')">
+            <p class="precio">Precio: 3000 €</p>
+            <a href="https://wa.me/{whatsapp}/?text=Estoy%20interesado%20en%20flores%202" class="btn">Comprar</a>
+        </div>
+        
+        <div class="item">
+            <img src="imagenes/flores3.jpg" alt="flores 3" onclick="openLightbox('imagenes/flores3.jpg')">
+            <p class="precio">Precio: 3000 €</p>
+            <a href="https://wa.me/{whatsapp}/?text=Estoy%20interesado%20en%20flores%203" class="btn">Comprar</a>
+        </div>
+        
+        <div class="item">
+            <img src="imagenes/flores4.jpg" alt="flores 4" onclick="openLightbox('imagenes/flores4.jpg')">
+            <p class="precio">Precio: 3000 €</p>
+            <a href="https://wa.me/{whatsapp}/?text=Estoy%20interesado%20en%20flores%204" class="btn">Comprar</a>
+        </div>
+        
+</main>
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="">
+</div>
+</body>
+</html>
